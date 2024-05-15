@@ -1,0 +1,19 @@
+# Ignore built files and directories
+build/
+dist/
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore generated files
+*.min.js
+*.min.css
+
+# Ignore configuration files
+.prettierrc
+.eslintrc
+babel.config.js
+webpack.config.js
+
+# Ignore coverage reports
+coverage/
