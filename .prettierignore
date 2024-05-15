@@ -17,3 +17,6 @@ webpack.config.js
 
 # Ignore coverage reports
 coverage/
+
+
+/.vscode
