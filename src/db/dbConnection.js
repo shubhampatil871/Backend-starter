@@ -3,7 +3,6 @@ import mongoose from 'mongoose';
 import { configDotenv } from 'dotenv';
 import { DB_NAME } from '../contants.js';
 
-
 const connectionDB = async () => {
     try {
         const connectionInstance = await mongoose.connect(
