@@ -9,7 +9,7 @@ const connectionDB = async () => {
             `${process.env.DATABASE_URI}/${DB_NAME}`,
         );
         console.log(
-            '\nvoila ! connected to the database',
+            '\nvoila ! connected to the database -->',
             connectionInstance.connection.host,
         );
     } catch (error) {
